@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    background: rgb(5, 5, 87);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, black, blue, blue, black);
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+
+::-webkit-scrollbar-thumb:focus {
+    background: yellow;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: 0 0 10px white;
+
+}
