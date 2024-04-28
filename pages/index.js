@@ -69,8 +69,8 @@ export default function Home() {
                 Sou um desenvolvedor apaixonado nas atividades de minha área, me
                 satisfaz entregar resultados e se possível, vou além. Encontrar
                 desafios e conseguir trazer soluções é o que me empolga, já
-                criei diversos projetos web robustos tanto na parte FrontEND
-                quanto na BackEND, estou buscando aprender sempre novas
+                criei diversos projetos web robustos tanto na parte Frontend
+                quanto na Backend, estou buscando aprender sempre novas
                 tecnologias e tendências de mercado
               </p>
               <div className="btns">
