@@ -382,8 +382,25 @@ p {
 
 .recado h1 {
     font-size: 60px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, black, blue, black, white, black, blue, black);
+    background-size: 400% 100%;
+    animation: degradeanimacao 5s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .recado h4 {
     font-size: 30px;
+}
+
+@keyframes degradeanimacao {
+
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
 }
