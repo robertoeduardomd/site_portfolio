@@ -333,21 +333,25 @@ export default function Home() {
                 <br />
               </p>
             </div>
-            <h2>Idiomas</h2>
-            <br />
-            <p>
-              Español Fluente
+            <div className="escolaridade">
+              <h2>Idiomas</h2>
               <br />
+              <p>
+                Español Fluente
+                <br />
+                <br />
+                Ingles Intermediario
+                <br />
+                <br />
+              </p>
+            </div>
+            <div className="escolaridade">
+              <h2>Cursos</h2>
               <br />
-              Ingles Intermediario
-              <br />
-              <br />
-            </p>
-            <h2>Cursos</h2>
-            <br />
-            <p>
-              Curso de verão Mendix certificado desenvolvedor rapido em Mendix
-            </p>
+              <p>
+                Curso de verão Mendix certificado desenvolvedor rapido em Mendix
+              </p>
+            </div>
           </div>
         </section>
         <section>

@@ -59,6 +59,17 @@
         width: 80%;
     }
 
+    /*formacao:*/
+    .formacao {
+        flex-direction: column;
+    }
+
+    .escolaridade {
+        width: 100%;
+        height: auto;
+
+    }
+
     /*seccao de rodape*/
     #contato {
 

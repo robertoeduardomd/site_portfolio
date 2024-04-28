@@ -366,8 +366,13 @@ p {
     align-items: center;
     justify-content: center;
 
-    flex-direction: column;
+    flex-direction: row;
 
+}
+
+.escolaridade {
+    width: 33%;
+    height: 400px;
 }
 
 .recado {
