@@ -33,13 +33,21 @@
         padding: 10px 600px;
     }
 
-    section {
+    article {
         width: 100%;
+    }
+
+    section {
+        width: 90%;
     }
 
     .inicio {
         width: 100%;
         flex-direction: column-reverse;
+    }
+
+    .inicio .conteudoinicio {
+        width: 100%;
     }
 
     /*seccao de projetos:*/
