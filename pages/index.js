@@ -355,7 +355,7 @@ export default function Home() {
                 </video>
               </div>
               <div className="slide-box">
-                <video width="100%" height="100%" controls>
+                <video width="100%" height="100%" autoPlay muted>
                   <source src="/videos/VID_20230718_174643193.mp4" />
                 </video>
               </div>
