@@ -59,9 +59,16 @@
         width: 80%;
     }
 
-    /*seccao de contatos*/
+    /*seccao de rodape*/
     #contato {
+
         flex-direction: column;
+    }
+
+    .ctt,
+    .redessociais,
+    .funcionamento {
+        height: 100px;
     }
 }
 
