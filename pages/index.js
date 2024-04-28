@@ -11,6 +11,14 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      <div class="preloader">
+        <div class="preloader-body">
+          <div class="cssload-container">
+            <div class="cssload-speeding-wheel"></div>
+          </div>
+          <h1>Portfólio Roberto Eduardo Melara</h1>
+        </div>
+      </div>
       <header>
         <div className="menubar">
           <div className="logo">Portfólio</div>
@@ -34,7 +42,7 @@ export default function Home() {
                 <a href="#form">Formação</a>
               </li>
               <li>
-                <a href="#hobbies">Hobbies</a>
+                <a href="#slide">Hobbies</a>
               </li>
               <li>
                 <a href="#contato">Contato</a>
@@ -274,9 +282,9 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section id="proje">
           <h2>Projetos</h2>
-          <div className="projetos" id="proje">
+          <div className="projetos">
             <div className="proj">
               <a
                 href="https://controle-de-despezasversaosimples.vercel.app/"
@@ -308,7 +316,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section id="form">
           <h2>Formação</h2>
           <br />
           <div className="formacao">
@@ -391,7 +399,10 @@ export default function Home() {
         <div className="redessociais">
           <h4>Redes Sociais</h4>
           <ul>
-            <a href="www.linkedin.com/in/roberto-eduardo-md01" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/roberto-eduardo-md01"
+              target="_blank"
+            >
               <li style={{ "--cor1": "#1900ff", "--cor2": "black" }}>
                 <span className="icon">
                   <img
@@ -442,6 +453,7 @@ export default function Home() {
       <script src="/colapsavel.js"></script>
       <script src="/mensagens.js"></script>
       <script src="/slide.js"></script>
+      <script src="/carregador.js"></script>
     </>
   );
 }

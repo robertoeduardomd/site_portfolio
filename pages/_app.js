@@ -5,6 +5,7 @@ import "@/styles/autodigitavel.css";
 import "@/styles/slide.css";
 import "@/styles/footer.css";
 import "@/styles/responsividade.css";
+import "@/styles/carregar.css";
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
