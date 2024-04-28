@@ -41,7 +41,7 @@
     position: absolute;
     height: 100%;
     border-left: 2px solid black;
-    right: -55px;
+    right: -135px;
     width: calc(100% + 100px);
     background-color: white;
     animation: digita 10s infinite steps(15), pisca 0.8s infinite;
@@ -72,7 +72,7 @@
     80%,
     85% {
 
-        width: calc(100% + 45px);
+        width: calc(100% + 145px);
     }
 }
 
@@ -106,6 +106,6 @@
 
     81%,
     100% {
-        content: "";
+        content: "vamos desenvolver uma aplicacao?";
     }
 }
