@@ -33,18 +33,13 @@
         padding: 10px 600px;
     }
 
-
-
-    .botaocomecar {
-        display: none;
-    }
-
-    .card {
+    section {
         width: 100%;
     }
 
-    .sobre {
-        flex-direction: column;
+    .inicio {
+        width: 100%;
+        flex-direction: column-reverse;
     }
 
     #contato {
@@ -55,7 +50,7 @@
 /*tablets*/
 @media screen and (max-width: 768px) {
 
-    .card {
+    .proj {
         flex-basis: calc(50% - 2%);
     }
 }
@@ -64,7 +59,7 @@
 @media screen and (max-width: 480px) {
 
 
-    .card {
+    .proj {
         flex-basis: calc(100% - 2%);
     }
 }

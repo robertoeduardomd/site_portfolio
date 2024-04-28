@@ -390,6 +390,12 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section>
+          <div className="recado">
+            <h4>precisa de um desenvolvedor?</h4>
+            <h1>VAMOS TRABALHAR JUNTOS!</h1>
+          </div>
+        </section>
       </article>
       <footer id="contato">
         <div className="ctt">
