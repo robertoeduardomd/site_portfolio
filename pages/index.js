@@ -451,6 +451,7 @@ export default function Home() {
             </a>
           </ul>
         </div>
+        <p>@2024 Meu Portfolio,desenvolvido por mim</p>
       </footer>
       <script src="/tecnologias.js"></script>
       <script src="/colapsavel.js"></script>
