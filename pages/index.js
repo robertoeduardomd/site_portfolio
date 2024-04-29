@@ -362,16 +362,8 @@ export default function Home() {
               <input type="radio" name="btn-radio" id="radio2" />
               <input type="radio" name="btn-radio" id="radio3" />
 
-              <div className="slide-box primeiro">
-                <video width="100%" height="100%" controls>
-                  <source src="/videos/binks.mp4" />
-                </video>
-              </div>
-              <div className="slide-box">
-                <video width="100%" height="100%" autoPlay muted>
-                  <source src="/videos/VID_20230718_174643193.mp4" />
-                </video>
-              </div>
+              <div className="slide-box primeiro"></div>
+              <div className="slide-box"></div>
               <div className="slide-box">
                 <img
                   width="80%"
