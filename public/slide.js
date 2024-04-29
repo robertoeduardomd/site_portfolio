@@ -12,4 +12,4 @@ function proximaimg() {
 
 setInterval(() => {
   proximaimg();
-}, 60000);
+}, 6000);
