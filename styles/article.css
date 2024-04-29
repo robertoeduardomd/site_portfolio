@@ -265,7 +265,7 @@ p {
 
 .experiencias .colapsador .label {
     position: relative;
-    padding: 10px;
+    padding: 20px;
     background: linear-gradient(45deg, black, rgb(5, 5, 87), black);
     color: white;
     border-radius: 30px;
