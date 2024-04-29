@@ -59,6 +59,11 @@
         width: 80%;
     }
 
+    /*Experiencias*/
+    .experiencias .colapsador.active .conteudocolapsador {
+        height: 600px;
+    }
+
     /*formacao:*/
     .formacao {
         flex-direction: column;

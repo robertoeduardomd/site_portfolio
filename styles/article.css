@@ -305,6 +305,7 @@ p {
 }
 
 .experiencias .colapsador.active .conteudocolapsador {
+    padding: 20px;
     height: 300px;
 }
 
@@ -382,10 +383,10 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    line-height: 100px;
 }
 
 .recado h1 {
+    line-height: 100px;
     font-size: 60px;
     text-transform: uppercase;
     background: linear-gradient(45deg, black, blue, black, white, black, blue, black);
