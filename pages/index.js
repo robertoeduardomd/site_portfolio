@@ -12,13 +12,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div class="preloader">
-        <div class="preloader-body">
-          <div class="cssload-container">
-            <div class="cssload-speeding-wheel"></div>
+        <div class="portal-container">
+          <div class="portal">
+            <div class="preloader-body">
+              <div class="cssload-container">
+                <div class="cssload-speeding-wheel"></div>
+              </div>
+
+              <h1>Portfólio Roberto Eduardo Melara</h1>
+            </div>
           </div>
-          <h1>Portfólio Roberto Eduardo Melara</h1>
         </div>
       </div>
+
       <header>
         <div className="menubar">
           <div className="logo">Portfólio</div>
@@ -451,7 +457,7 @@ export default function Home() {
             </a>
           </ul>
         </div>
-        <p>©2024 Meu Portfolio,desenvolvido por mim</p>
+        <p>©2024 Meu Portfolio,desenvolvido por mim</p> <br />
       </footer>
       <script src="/tecnologias.js"></script>
       <script src="/colapsavel.js"></script>

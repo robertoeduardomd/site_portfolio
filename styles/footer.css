@@ -54,7 +54,7 @@ footer p {
     justify-content: center;
     position: relative;
     transition: all 0.5s linear;
-    cursor: pointer;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=113908), pointer;
     overflow: hidden;
 }
 

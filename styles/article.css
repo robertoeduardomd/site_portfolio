@@ -158,7 +158,7 @@ p {
     border: 2px solid white;
     border-radius: 30px;
     padding: 20px;
-    cursor: pointer;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=113908), pointer;
 }
 
 .tecnop ul li:hover {
@@ -269,7 +269,7 @@ p {
     background: linear-gradient(45deg, black, rgb(5, 5, 87), black);
     color: white;
     border-radius: 30px;
-    cursor: pointer;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=113908), pointer;
 
 }
 
@@ -332,7 +332,7 @@ p {
     border-radius: 30px;
     overflow: hidden;
     transition: .3s;
-    cursor: pointer;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=113908), pointer;
 }
 
 
