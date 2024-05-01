@@ -11,12 +11,12 @@ html {
 }
 
 body {
+    cursor: url(../public/imgs/neonpointer.cur), default;
     font-family: sans-serif;
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=165378), default;
 }
 
 a {
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=113908), pointer;
+    cursor: url(../public/imgs/neonlinkselect.cur), pointer;
 }
 
 ::-webkit-scrollbar {

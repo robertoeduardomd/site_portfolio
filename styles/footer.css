@@ -54,7 +54,7 @@ footer p {
     justify-content: center;
     position: relative;
     transition: all 0.5s linear;
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=113908), pointer;
+    cursor: url(../public/imgs/neonlinkselect.cur), pointer;
     overflow: hidden;
 }
 
