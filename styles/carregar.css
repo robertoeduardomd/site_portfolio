@@ -78,6 +78,11 @@
     animation: openPortal 5s forwards;
 }
 
+.portal h1 {
+    animation: openPortaltext 5s forwards;
+
+}
+
 .portal.loaded {
     opacity: 0;
     visibility: hidden;
@@ -92,8 +97,8 @@
     width: 100%;
     height: 100%;
     background: radial-gradient(circle,
-            rgba(255, 255, 255, 0.753) 0%,
-            rgba(23, 19, 230, 0.418) 70%);
+            rgba(255, 255, 255, 0.753) 30%,
+            rgba(19, 51, 230, 0.418) 70%);
     border-radius: 50%;
     animation: pulse 2s infinite alternate;
 }
@@ -107,6 +112,16 @@
 }
 
 @keyframes openPortal {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes openPortaltext {
     0% {
         transform: rotateY(0deg) scale(0);
     }
