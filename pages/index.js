@@ -395,7 +395,7 @@ export default function Home() {
         </section>
         <section>
           <div className="recado">
-            <h4>precisa de um desenvolvedor?</h4>
+            <h4>Precisa de um desenvolvedor?</h4>
             <h1>VAMOS TRABALHAR JUNTOS!</h1>
           </div>
         </section>
@@ -464,6 +464,7 @@ export default function Home() {
       <script src="/mensagens.js"></script>
       <script src="/slide.js"></script>
       <script src="/carregador.js"></script>
+      <script src="/msgcopia.js"></script>
     </>
   );
 }
