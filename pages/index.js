@@ -97,7 +97,7 @@ export default function Home() {
               </div>
             </div>
             <div className="imginicio">
-              <img src="/imgs/eulkin.jpg" alt="" />
+              <img src="/imgs/eufndtransparente.png" alt="" />
             </div>
           </div>
         </section>

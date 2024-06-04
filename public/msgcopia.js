@@ -2,7 +2,7 @@
 var secoes = document.querySelectorAll("section");
 
 // Adiciona um ouvinte de eventos de cópia a cada seção
-secoes.forEach(function (secao) {
+secoes.forEach(function (seco) {
   secao.addEventListener("copy", function (e) {
     e.preventDefault();
     var navegador = getNavegador();

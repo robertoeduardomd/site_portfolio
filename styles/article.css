@@ -28,7 +28,7 @@ section:target {
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 12, 184);
 }
 
 h3 {
@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-    color: rgb(24, 13, 173);
+    color: rgb(0, 0, 0);
     font-weight: bolder;
     font-family: serif;
     font-size: 20px;
@@ -57,13 +57,21 @@ p {
 
 }
 
-.conteudoinicio,
-.imginicio {
+.conteudoinicio {
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
     word-wrap: break-word;
+    width: 50%;
+}
+
+.imginicio {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 50%;
 }
 
@@ -107,20 +115,25 @@ p {
     padding: 30px 0;
 }
 
+
+
 .imginicio img {
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: cover;
-    width: 90%;
-    height: 90%;
-    position: static;
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+    position: relative;
     border-radius: 300px;
+
 }
+
+
 
 .tecno {
     margin-top: 0px;
-    background: rgb(5, 5, 87);
+    background: rgb(0, 0, 0);
     width: 100%;
     display: flex;
     text-align: center;
@@ -225,7 +238,7 @@ p {
     border-radius: 30px;
     opacity: 0;
     position: absolute;
-    background: rgb(5, 5, 87);
+    background: rgb(0, 0, 0);
     width: 300px;
     height: 300px;
 }
