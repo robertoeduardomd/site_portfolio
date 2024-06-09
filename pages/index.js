@@ -324,6 +324,8 @@ export default function Home() {
           </div>
         </section>
         <section id="form">
+          <br />
+
           <h2>Formação</h2>
           <br />
           <div className="formacao">

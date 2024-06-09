@@ -58,6 +58,7 @@ p {
 }
 
 .conteudoinicio {
+    padding: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -73,6 +74,10 @@ p {
     justify-content: center;
 
     width: 50%;
+}
+
+.imginicio img {
+    background: radial-gradient(rgb(0, 184, 190), rgb(2, 3, 2));
 }
 
 .btns {
@@ -373,6 +378,11 @@ p {
 }
 
 /*formacao:*/
+#form {
+    border: 2px double blue;
+    border-radius: 30px;
+}
+
 .formacao {
     margin-top: 50px;
     width: 100%;
