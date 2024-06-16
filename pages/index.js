@@ -74,8 +74,6 @@ export default function Home() {
         <section>
           <div className="inicio" id="inicio">
             <div className="conteudoinicio">
-              <h2>Roberto Eduardo Melara Doudement</h2>
-
               <div className="txtdigitado">
                 <p>
                   👨‍💻 <span></span>

@@ -112,7 +112,7 @@
     height: 100%;
     background: radial-gradient(circle,
             rgba(0, 0, 0, 0.753) 30%,
-            rgba(19, 51, 230, 0.418) 70%);
+            rgba(1, 34, 221, 0.274) 70%);
     border-radius: 50%;
     animation: pulse 2s infinite alternate;
 }
