@@ -30,7 +30,7 @@ a {
     background: linear-gradient(45deg, black, blue, blue, black);
     border: 1px solid white;
     border-radius: 30px;
-
+    transition: .5s ease-in;
 }
 
 ::-webkit-scrollbar-thumb:focus {
@@ -38,6 +38,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, black, rgb(1, 221, 118), rgb(1, 221, 118), black);
     box-shadow: 0 0 10px white;
 
 }
@@ -128,6 +129,7 @@ h2 {
     opacity: 0;
     transition: .5s ease-in;
 }
+
 .iconewwp:hover::before {
     opacity: 1;
 }

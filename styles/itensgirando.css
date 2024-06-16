@@ -1,26 +1,32 @@
 .contem_coisa_gira {
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     position: relative;
-    background: linear-gradient(blue, black, black, blue);
+
+
     display: flex;
     align-items: end;
     justify-content: center;
+
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-radius: 100px;
+
+
 }
 
+
 .rotating-thing {
-    --size: 320vmin;
+    margin-top: 100px;
+    --size: 420vmin;
     --carousel-radius: calc(.2 * var(--size));
     --item-radius: calc(.4* var(--carousel-radius));
     --pi: 3.1416;
     --n: 5;
     --delta: 0;
 
-    background: white;
-    height: 180%;
+
+    height: 400%;
     width: 102%;
     position: absolute;
     top: 57.4%;
