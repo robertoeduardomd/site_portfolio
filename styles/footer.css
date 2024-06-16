@@ -64,7 +64,7 @@ footer p {
 }
 
 .redessociais ul li .icon {
-    color: #006d77;
+    color: rgb(1, 221, 118);
     font-size: 1.5em;
     transition: all 0.1s linear;
 }
@@ -108,7 +108,7 @@ footer h3 {
 }
 
 footer h4 {
-    color: #83c5be;
+    color: rgb(1, 221, 118);
     font-size: 30px;
     font-family: sans-serif;
     padding-bottom: 10px;
