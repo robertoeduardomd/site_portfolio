@@ -17,7 +17,7 @@
 
 
 .rotating-thing {
-    margin-top: 100px;
+    margin-top: 120px;
     --size: 420vmin;
     --carousel-radius: calc(.2 * var(--size));
     --item-radius: calc(.4* var(--carousel-radius));
