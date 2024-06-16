@@ -7,6 +7,22 @@ import "@/styles/footer.css";
 import "@/styles/responsividade.css";
 import "@/styles/carregar.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+import "@/styles/itensgirando.css";
+
+function App({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    </>
+  );
 }
+
+export default App;

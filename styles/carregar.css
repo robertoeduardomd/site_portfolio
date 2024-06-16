@@ -79,8 +79,17 @@
 }
 
 .portal h1 {
+    font-size: 90px;
     animation: openPortaltext 5s forwards;
+}
 
+.portal h2 {
+    font-size: 40px;
+    animation: openPortaltext 5s forwards;
+}
+
+.portal h3 {
+    animation: openPortaltext 5s forwards;
 }
 
 .portal.loaded {

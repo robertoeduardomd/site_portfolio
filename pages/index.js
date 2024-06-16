@@ -1,5 +1,11 @@
+// pages/index.js
 import Head from "next/head";
-import SwiperComponent from "../public/slidecircular";
+import { useEffect } from "react";
+import Swiper from "swiper";
+
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 export default function Home() {
   return (
     <>
@@ -19,38 +25,45 @@ export default function Home() {
                 <div class="cssload-speeding-wheel"></div>
               </div>
 
-              <h1>Portfólio Roberto Eduardo Melara</h1>
+              <h1>Portfólio</h1>
+              <br />
+              <h2>Roberto Eduardo Melara</h2>
             </div>
           </div>
         </div>
       </div>
-
+      <div className="imgfundosite">
+        <img src="/imgs/fundobrancotec.jpg" alt="" />
+      </div>
       <header>
         <div className="menubar">
-          <div className="logo">Portfólio</div>
+          <div className="logo">
+            <h2>Roberto Eduardo</h2>
+            <p>Desenvolvedor Full Stack</p>
+          </div>
           <button className="iconmenuresponsivo">☰</button>
 
           <div className="menu">
             <ul>
-              <li>
+              <li className="inia">
                 <a href="#">Inicio</a>
               </li>
-              <li>
+              <li className="teca">
                 <a href="#tecno">Tecnologias</a>
               </li>
-              <li>
+              <li className="expa">
                 <a href="#expe">Experiências</a>
               </li>
-              <li>
+              <li className="proa">
                 <a href="#proje">Projetos</a>
               </li>
-              <li>
+              <li className="fora">
                 <a href="#form">Formação</a>
               </li>
-              <li>
+              <li className="hoba">
                 <a href="#slide">Hobbies</a>
               </li>
-              <li>
+              <li className="ctta">
                 <a href="#contato">Contato</a>
               </li>
             </ul>
@@ -85,6 +98,7 @@ export default function Home() {
                   href="//www.linkedin.com/in/roberto-eduardo-md01/"
                   target="_blank"
                 >
+                  <img src="/imgs/lin.png" alt="" />
                   Linkedin
                 </a>
                 <a
@@ -92,6 +106,7 @@ export default function Home() {
                   href="https://github.com/robertoeduardomd"
                   target="_blank"
                 >
+                  <img src="/imgs/github.png" alt="" />
                   GitHub
                 </a>
               </div>
@@ -101,6 +116,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <br />
         <section>
           <div className="tecno" id="tecno">
             <div className="tecnoconteudo">
@@ -112,6 +130,10 @@ export default function Home() {
                   HTML5 <br />
                   HyperText Markup Language 5 É uma linguagem de marcação
                   voltada a paginas web
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em HTML 7/10
                 </p>
               </div>
               <div className="cardcss">
@@ -122,6 +144,10 @@ export default function Home() {
                   escrito em HTML ou XML (incluindo dialetos XML como SVG ,
                   MathML ou XHTML ). CSS descreve como os elementos devem ser
                   renderizados na tela ou em outras mídias.
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em CSS 9/10
                 </p>
               </div>
               <div className="cardjs">
@@ -129,6 +155,10 @@ export default function Home() {
                   JAVA-SCRIPT <br />
                   Linguagem de programação voltada para web,podendo ser
                   utilizada no frontend e back end
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em Java-Script 6/10
                 </p>
               </div>
               <div className="cardnode">
@@ -141,6 +171,10 @@ export default function Home() {
                   desempenho, utilizando JavaScript tanto no lado do cliente
                   quanto no lado do servidor. Ele é bastante popular para o
                   desenvolvimento de aplicações web, APIs e serviços back-end.
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em Node.js 6/10
                 </p>
               </div>
               <div className="cardreact">
@@ -151,6 +185,10 @@ export default function Home() {
                   capacidade de criar interfaces de usuário interativas e
                   reativas. O React permite criar componentes reutilizáveis que
                   geram a visualização de dados de forma eficiente.
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em react.js 5/10
                 </p>
               </div>
               <div className="cardjava">
@@ -166,6 +204,10 @@ export default function Home() {
                   diferentes comunicar-se entre si, no caso o jdk que eu utilizo
                   é o Extended Edition que é o java em que posso intalar
                   dependencias voltadas a web
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em JAVA 8/10
                 </p>
               </div>
               <div className="cardgit">
@@ -181,6 +223,10 @@ export default function Home() {
                   usa-los alem de minha maquina onde possui meu perfil posso
                   tornar meus repositorios publicos ou privados para que outros
                   colaboradores possam ver os codigos e participar da criação
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em Git e GitHub 8/10
                 </p>
               </div>
               <div className="cardmysql">
@@ -189,6 +235,10 @@ export default function Home() {
                   preferência, ele utilizada o conceito de tabelas,para
                   organizar e estruturar os dados inseridos,é um dos mais
                   populares
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em Git e MYSQL 8/10
                 </p>
               </div>
               <div className="cardmongo">
@@ -196,6 +246,10 @@ export default function Home() {
                   MONGODB <br />é um banco de dados NoSQL (Not Only SQL),não
                   relacional orientado a documentos, projetado para armazenar,
                   recuperar e gerenciar dados de forma bastante flexivel
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em Git e MongoDB 8/10
                 </p>
               </div>
             </div>
@@ -289,150 +343,69 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <br />
         <section id="proje">
           <h2>Projetos</h2>
-          <div className="projetos">
-            <div className="proj">
-              <a
-                href="https://controle-de-despezasversaosimples.vercel.app/"
-                target="_blank"
-              >
-                <img src="/imgs/imgcontrolefinanceiro.png" alt="" /> Controle
-                financeiro <br />
-                clique para ver esta aplicação web
-              </a>
+          <br />
+          <br />
+          <br /> <br />
+          <br />
+          <br />
+          <div className="contem_coisa_gira">
+            <div className="rotating-thing">
+              <div className="item">
+                {" "}
+                <a
+                  href="https://controle-de-despezasversaosimples.vercel.app/"
+                  target="_blank"
+                >
+                  <img src="/imgs/imgcontrolefinanceiro.png" alt="" />{" "}
+                  <p> Controle financeiro</p>
+                </a>
+              </div>
+              <div className="item">
+                <a
+                  href="https://odontoesteticaversaosimples.vercel.app/"
+                  target="_blank"
+                >
+                  <img src="/imgs/clinicaodontoesteticasite.jpg" alt="" />{" "}
+                  <p> Site institucional odonto e estetica</p>
+                </a>
+              </div>
+              <div className="item">
+                <a href="#" id="linkhamburgeria">
+                  <img src="/imgs/hamburgerblaide.jpg" alt="" />{" "}
+                  <p> Hamburgeria Blade</p>
+                </a>
+              </div>
+              <div className="item">
+                {" "}
+                <a href="#" id="linkpizzaria">
+                  <img src="/imgs/saboreartpizzaria.jpg" alt="" />{" "}
+                  <p>Pizzaria Sabor e Art</p>
+                </a>
+              </div>
+              <div className="item">
+                {" "}
+                <a href="https://nigelky.com.br/index.html" target="_blank">
+                  <img src="/imgs/institutohenfil.jpg" alt="" />{" "}
+                  <p>instituto Henfil</p>
+                </a>
+              </div>
             </div>
-
-            <div className="proj">
-              <a
-                href="https://odontoesteticaversaosimples.vercel.app/"
-                target="_blank"
-              >
-                <img src="/imgs/clinicaodontoesteticasite.jpg" alt="" /> Site
-                institucional odonto e estetica <br />
-                clique para ver esta aplicação web
-              </a>
-            </div>
-
-            <div className="proj">
-              <a onclick="aviso()">
-                <img src="/imgs/hamburgerblaide.jpg" alt="" /> Hamburgeria
-                <br />
-                clique para ver esta aplicação web
-              </a>
+            <div className="controls">
+              <button className="control-button" id="left-button">
+                ⟲
+              </button>
+              <button className="control-button" id="right-button">
+                ⟳
+              </button>
             </div>
           </div>
         </section>
-        <section id="tranding">
-          <h2>Ofertas do dia</h2>
 
-          <div className="containerx">
-            <div className="swiper tranding-slider">
-              <br />
-              <div className="tranding-slider-control">
-                <div className="swiper-button-prev slider-arrow">
-                  <ion-icon name="arrow-back-outline"></ion-icon>
-                </div>
-                <div className="swiper-button-next slider-arrow">
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
-                </div>
-                <div className="swiper-pagination"></div>
-              </div>
-
-              <div className="swiper-wrapper">
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/css-3.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$29.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/css-3.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$9.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/css-3.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$49.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/css-3.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$30.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/css-3.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$35.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/css-3.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$39.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/css-3.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$40.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/refri-1.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$2.00</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-
-                <div className="swiper-slide tranding-slide">
-                  <div className="tranding-slide-img">
-                    <img src="imgs/refri-2.png" alt="Tranding" />
-                  </div>
-                  <div className="tranding-slide-content">
-                    <h1 className="food-price">R$1.99</h1>
-                    <div className="tranding-slide-content-bottom"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section id="form">
           <br />
 
@@ -472,6 +445,11 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <br />
+        <br />
+        <br />
+        <br />
+
         <section>
           <h2>Hobbies</h2>
           <div id="slide">
@@ -512,6 +490,26 @@ export default function Home() {
           </div>
         </section>
       </article>
+      <a
+        href="https://github.com/robertoeduardomd"
+        target="_blank"
+        className="iconegithub"
+      >
+        <img src="imgs/github.png" alt="" />
+      </a>
+      <a
+        href="//www.linkedin.com/in/roberto-eduardo-md01/"
+        target="_blank"
+        className="iconelkdin"
+      >
+        <img src="imgs/lin.png" alt="" />
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=5561986023911"
+        className="iconewwp"
+      >
+        <img src="imgs/whatsappicone.png" alt="" />
+      </a>
       <footer id="contato">
         <div className="ctt">
           <h4>Contato:</h4>
@@ -577,7 +575,7 @@ export default function Home() {
       <script src="/slide.js"></script>
       <script src="/carregador.js"></script>
       <script src="/msgcopia.js"></script>
-      <script src="/slidecircular.js"></script>
+      <script src="/itensgirando.js"></script>
       <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </>
   );

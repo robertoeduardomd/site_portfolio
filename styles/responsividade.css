@@ -1,4 +1,11 @@
 @media screen and (max-width:1005px) {
+    .logo {
+        text-align: center;
+    }
+
+    .logo p {
+        text-align: center;
+    }
 
     /*menu em colunas e lista tambem*/
     .menubar,
