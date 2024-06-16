@@ -73,6 +73,30 @@ h2 {
     opacity: 0;
 }
 
+.iconegithub:before {
+    right: 60px;
+    padding: 10px;
+    border-radius: 30px;
+    position: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    content: "Ir em meu GitHub";
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    opacity: 0;
+    transition: .5s ease-in;
+}
+
+.iconegithub:hover::before {
+    opacity: 1;
+}
+
 .iconelkdin {
     color: black;
     z-index: 99;
@@ -84,6 +108,31 @@ h2 {
     cursor: pointer;
     opacity: 0;
 }
+
+.iconelkdin:before {
+    right: 60px;
+    padding: 10px;
+    border-radius: 30px;
+    position: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    content: "Ir em meu Linkedin";
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(45deg, blue, black);
+    color: white;
+    font-size: 16px;
+    opacity: 0;
+    transition: .5s ease-in;
+}
+
+.iconelkdin:hover::before {
+    opacity: 1;
+}
+
 
 .iconewwp {
     color: black;
@@ -119,7 +168,7 @@ h2 {
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    content: "me chame pelo whatapp";
+    content: "ir no whatapp";
     outline: none;
     text-align: center;
     text-decoration: none;
