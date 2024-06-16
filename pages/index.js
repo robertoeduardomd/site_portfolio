@@ -353,55 +353,57 @@ export default function Home() {
           <br /> <br />
           <br />
           <br />
-          <div className="contem_coisa_gira">
-            <div className="rotating-thing">
-              <div className="item">
-                {" "}
-                <a
-                  href="https://controle-de-despezasversaosimples.vercel.app/"
-                  target="_blank"
-                >
-                  <img src="/imgs/imgcontrolefinanceiro.png" alt="" />{" "}
-                  <p> Controle financeiro</p>
-                </a>
+          <div className="contem_coisa_gira_de">
+            <div className="contem_coisa_gira_dd">
+              <div className="rotating-thing">
+                <div className="item">
+                  {" "}
+                  <a
+                    href="https://controle-de-despezasversaosimples.vercel.app/"
+                    target="_blank"
+                  >
+                    <img src="/imgs/imgcontrolefinanceiro.png" alt="" />{" "}
+                    <p> Controle financeiro</p>
+                  </a>
+                </div>
+                <div className="item">
+                  <a
+                    href="https://odontoesteticaversaosimples.vercel.app/"
+                    target="_blank"
+                  >
+                    <img src="/imgs/clinicaodontoesteticasite.jpg" alt="" />{" "}
+                    <p> Site institucional odonto e estetica</p>
+                  </a>
+                </div>
+                <div className="item">
+                  <a href="#" id="linkhamburgeria">
+                    <img src="/imgs/hamburgerblaide.jpg" alt="" />{" "}
+                    <p> Hamburgeria Blade</p>
+                  </a>
+                </div>
+                <div className="item">
+                  {" "}
+                  <a href="#" id="linkpizzaria">
+                    <img src="/imgs/saboreartpizzaria.jpg" alt="" />{" "}
+                    <p>Pizzaria Sabor e Art</p>
+                  </a>
+                </div>
+                <div className="item">
+                  {" "}
+                  <a href="https://nigelky.com.br/index.html" target="_blank">
+                    <img src="/imgs/institutohenfil.jpg" alt="" />{" "}
+                    <p>instituto Henfil</p>
+                  </a>
+                </div>
               </div>
-              <div className="item">
-                <a
-                  href="https://odontoesteticaversaosimples.vercel.app/"
-                  target="_blank"
-                >
-                  <img src="/imgs/clinicaodontoesteticasite.jpg" alt="" />{" "}
-                  <p> Site institucional odonto e estetica</p>
-                </a>
+              <div className="controls">
+                <button className="control-button" id="left-button">
+                  ⟲
+                </button>
+                <button className="control-button" id="right-button">
+                  ⟳
+                </button>
               </div>
-              <div className="item">
-                <a href="#" id="linkhamburgeria">
-                  <img src="/imgs/hamburgerblaide.jpg" alt="" />{" "}
-                  <p> Hamburgeria Blade</p>
-                </a>
-              </div>
-              <div className="item">
-                {" "}
-                <a href="#" id="linkpizzaria">
-                  <img src="/imgs/saboreartpizzaria.jpg" alt="" />{" "}
-                  <p>Pizzaria Sabor e Art</p>
-                </a>
-              </div>
-              <div className="item">
-                {" "}
-                <a href="https://nigelky.com.br/index.html" target="_blank">
-                  <img src="/imgs/institutohenfil.jpg" alt="" />{" "}
-                  <p>instituto Henfil</p>
-                </a>
-              </div>
-            </div>
-            <div className="controls">
-              <button className="control-button" id="left-button">
-                ⟲
-              </button>
-              <button className="control-button" id="right-button">
-                ⟳
-              </button>
             </div>
           </div>
         </section>
