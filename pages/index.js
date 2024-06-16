@@ -61,7 +61,7 @@ export default function Home() {
                 <a href="#form">Formação</a>
               </li>
               <li className="hoba">
-                <a href="#slide">Hobbies</a>
+                <a href="#hobbies">Hobbies</a>
               </li>
               <li className="ctta">
                 <a href="#contato">Contato</a>
@@ -450,7 +450,7 @@ export default function Home() {
         <br />
         <br />
 
-        <section>
+        <section id="hobbies">
           <h2>Hobbies</h2>
           <div id="slide">
             <div className="slider-content">
