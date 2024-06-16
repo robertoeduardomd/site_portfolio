@@ -1,7 +1,7 @@
 #slide {
 
     border-radius: 30px;
-    background: linear-gradient(45deg, blue, red, blue);
+    background: linear-gradient(45deg, black, rgb(1, 221, 118), black);
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
