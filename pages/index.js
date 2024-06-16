@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import SwiperComponent from "../public/slidecircular";
 export default function Home() {
   return (
     <>
@@ -323,6 +323,116 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section id="tranding">
+          <h2>Ofertas do dia</h2>
+
+          <div className="containerx">
+            <div className="swiper tranding-slider">
+              <br />
+              <div className="tranding-slider-control">
+                <div className="swiper-button-prev slider-arrow">
+                  <ion-icon name="arrow-back-outline"></ion-icon>
+                </div>
+                <div className="swiper-button-next slider-arrow">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+                <div className="swiper-pagination"></div>
+              </div>
+
+              <div className="swiper-wrapper">
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/css-3.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$29.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/css-3.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$9.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/css-3.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$49.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/css-3.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$30.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/css-3.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$35.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/css-3.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$39.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/css-3.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$40.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/refri-1.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$2.00</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+
+                <div className="swiper-slide tranding-slide">
+                  <div className="tranding-slide-img">
+                    <img src="imgs/refri-2.png" alt="Tranding" />
+                  </div>
+                  <div className="tranding-slide-content">
+                    <h1 className="food-price">R$1.99</h1>
+                    <div className="tranding-slide-content-bottom"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="form">
           <br />
 
@@ -467,6 +577,8 @@ export default function Home() {
       <script src="/slide.js"></script>
       <script src="/carregador.js"></script>
       <script src="/msgcopia.js"></script>
+      <script src="/slidecircular.js"></script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </>
   );
 }
