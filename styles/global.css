@@ -75,7 +75,7 @@ h2 {
 
 .iconegithub:before {
     right: 60px;
-    padding: 10px;
+    padding: 0px;
     border-radius: 30px;
     position: inherit;
     display: flex;
@@ -90,10 +90,16 @@ h2 {
     color: white;
     font-size: 16px;
     opacity: 0;
-    transition: .5s ease-in;
+    transition: .2s ease-in;
+    overflow: hidden;
+    width: 0;
+    height: 10px;
 }
 
 .iconegithub:hover::before {
+    width: 150px;
+
+    padding: 10px;
     opacity: 1;
 }
 
@@ -126,10 +132,14 @@ h2 {
     color: white;
     font-size: 16px;
     opacity: 0;
-    transition: .5s ease-in;
+    transition: .2s ease-in;
+    overflow: hidden;
+    width: 0;
+    height: 10px;
 }
 
 .iconelkdin:hover::before {
+    width: 150px;
     opacity: 1;
 }
 
@@ -161,7 +171,8 @@ h2 {
 
 .iconewwp:before {
     right: 60px;
-    padding: 10px;
+    padding: 0;
+
     border-radius: 30px;
     position: inherit;
     display: flex;
@@ -175,10 +186,13 @@ h2 {
     background-color: green;
     color: white;
     font-size: 16px;
-    opacity: 0;
+    width: 0;
+    height: 10px;
+    overflow: hidden;
     transition: .5s ease-in;
 }
 
 .iconewwp:hover::before {
-    opacity: 1;
+    padding: 10px;
+    width: 150px;
 }
