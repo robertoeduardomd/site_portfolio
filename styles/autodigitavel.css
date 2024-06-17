@@ -32,7 +32,7 @@
     content: "";
     /*letras que passam*/
     color: rgb(1, 221, 118);
-    animation: txtanimado 10s infinite;
+    animation: txtanimado 20s infinite;
     transition: all 0.5s linear;
 }
 
@@ -44,7 +44,7 @@
     right: -135px;
     width: calc(100% + 100px);
     background-color: black;
-    animation: digita 10s infinite steps(15), pisca 0.8s infinite;
+    animation: digita 20s infinite steps(15), pisca 1.6s infinite;
 }
 
 @keyframes digita {
