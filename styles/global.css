@@ -189,7 +189,7 @@ h2 {
     width: 0;
     height: 10px;
     overflow: hidden;
-    transition: .5s ease-in;
+    transition: .2s ease;
 }
 
 .iconewwp:hover::before {

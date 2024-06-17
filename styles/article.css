@@ -107,7 +107,7 @@ p {
 }
 
 .imginicio img {
-    background: radial-gradient(rgb(0, 184, 190), rgb(2, 3, 2));
+    box-shadow: 0 0 24px rgb(1, 221, 118);
 }
 
 .btns {
