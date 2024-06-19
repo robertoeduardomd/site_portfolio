@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const ligit = document.getElementById("ligit");
   const limysql = document.getElementById("limysql");
   const limongo = document.getElementById("limongo");
+  const lipacoteoffice = document.getElementById("lipacoteoffice");
+  const limendix = document.getElementById("limendix");
 
   const imghtml = document.getElementById("imghtml");
   const imgcss = document.getElementById("imgcss");
@@ -18,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const imggit = document.getElementById("imggit");
   const imgmysql = document.getElementById("imgmysql");
   const imgmongo = document.getElementById("imgmongo");
+  const imgpacoteoffice = document.getElementById("imgpacoteoffice");
+  const imgmendix = document.getElementById("imgmendix");
 
   const cardhtml = document.querySelector(".cardhtml");
   const cardcss = document.querySelector(".cardcss");
@@ -28,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const cardgit = document.querySelector(".cardgit");
   const cardmysql = document.querySelector(".cardmysql");
   const cardmongo = document.querySelector(".cardmongo");
+  const cardpacoteoffice = document.querySelector(".cardpacoteoffice");
+  const cardmendix = document.querySelector(".cardmendix");
 
   lihtml.addEventListener("mouseover", function () {
     imghtml.style.opacity = "1";
@@ -105,5 +111,22 @@ document.addEventListener("DOMContentLoaded", function () {
   limongo.addEventListener("mouseleave", function () {
     imgmongo.style.opacity = "0";
     cardmongo.style.opacity = "0";
+  });
+
+  lipacoteoffice.addEventListener("mouseover", function () {
+    imgpacoteoffice.style.opacity = "1";
+    cardpacoteoffice.style.opacity = "1";
+  });
+  lipacoteoffice.addEventListener("mouseleave", function () {
+    imgpacoteoffice.style.opacity = "0";
+    cardpacoteoffice.style.opacity = "0";
+  });
+  limendix.addEventListener("mouseover", function () {
+    imgmendix.style.opacity = "1";
+    cardmendix.style.opacity = "1";
+  });
+  limendix.addEventListener("mouseleave", function () {
+    imgmendix.style.opacity = "0";
+    cardmendix.style.opacity = "0";
   });
 });

@@ -49,7 +49,7 @@ export default function Home() {
                 <a href="#">Inicio</a>
               </li>
               <li className="teca">
-                <a href="#tecno">Tecnologias</a>
+                <a href="#habilidades">Habilidades</a>
               </li>
               <li className="expa">
                 <a href="#expe">Experiências</a>
@@ -60,9 +60,7 @@ export default function Home() {
               <li className="fora">
                 <a href="#form">Formação</a>
               </li>
-              <li className="hoba">
-                <a href="#hobbies">Hobbies</a>
-              </li>
+
               <li className="ctta">
                 <a href="#contato">Contato</a>
               </li>
@@ -118,10 +116,10 @@ export default function Home() {
         <br />
         <br />
         <section>
-          <div className="tecno" id="tecno">
+          <div className="tecno" id="habilidades">
             <div className="tecnoconteudo">
               <div className="tcn">
-                <h2>Tecnologias que uso</h2>
+                <h2>Habilidades</h2>
               </div>
               <div className="cardhtml">
                 <p>
@@ -236,7 +234,7 @@ export default function Home() {
                   <br />
                   <br />
                   <br />
-                  Meu Nivel em Git e MYSQL 8/10
+                  Meu Nivel em Git e MYSQL 7/10
                 </p>
               </div>
               <div className="cardmongo">
@@ -247,12 +245,49 @@ export default function Home() {
                   <br />
                   <br />
                   <br />
-                  Meu Nivel em Git e MongoDB 8/10
+                  Meu Nivel em Git e MongoDB 6/10
+                </p>
+              </div>
+              <div className="cardpacoteoffice">
+                <p>
+                  Pacote Microsoft Office WORD, EXCEL, POWER POINT <br />
+                  Word permite criar editar e abrir documentos digitados,Excel
+                  criador de tabelas, graficos permite registro orientação e
+                  obtenção de controle de tarefas, Power Point: permite criar
+                  slides modernos de apresentação de projetos, trabalhos, aulas
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em Word 6/10
+                  <br />
+                  Meu Nivel em Excel 7/10
+                  <br />
+                  Meu Nivel em Power Point 9/10
+                </p>
+              </div>
+              <div className="cardmendix">
+                <p>
+                  Mendix Studio Pro <br />
+                  tecnologia low code recente em mercado chegando aos pouco no
+                  Brasil, o Studio Pro Mendix é um ambiente de desenvolvimento
+                  low code que permite a criação de aplicações complexas em
+                  pouco tempo de maneira muito intuitiva e com quase nada de
+                  codigo mas o desenvolvedor optar inserir codigos tambem é
+                  possivel ,ele gera de forma automatica seu banco de dados
+                  relacional arrastando tabelas e atributos e para realizar a
+                  logica de programação ele trabalha com o conceito de
+                  microfluxos e nanofluxos
+                  <br />
+                  <br />
+                  <br />
+                  Meu Nivel em Mendix Iniciante
                 </p>
               </div>
             </div>
             <div className="tecnop">
               <ul>
+                <h2>Tecnologias</h2>
+                <br />
                 <li id="lihtml">HTML5</li>
                 <li id="licss">CSS3</li>
                 <li id="lijs">JAVA-SCRIPT</li>
@@ -262,6 +297,11 @@ export default function Home() {
                 <li id="ligit">GIT</li>
                 <li id="limysql">MYSQL</li>
                 <li id="limongo">MONGODB</li>
+                <br /> <br />
+                <h2>Outras</h2>
+                <br />
+                <li id="lipacoteoffice">Microsoft Office</li>
+                <li id="limendix">Mendix</li>
               </ul>
               <div className="imgstec">
                 <img id="imghtml" src="/imgs/html-5.png" alt="" />
@@ -277,6 +317,12 @@ export default function Home() {
                 />
                 <img id="imgmysql" src="/imgs/mysqltransparent.png" alt="" />
                 <img id="imgmongo" src="/imgs/mongodbimg.png" alt="" />
+                <img
+                  id="imgpacoteoffice"
+                  src="/imgs/wordexcelpowerpoint.jpg"
+                  alt=""
+                />
+                <img id="imgmendix" src="/imgs/mendixstudiopro.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -346,6 +392,7 @@ export default function Home() {
         <br />
         <section id="proje">
           <h2>Projetos</h2>
+          <h4>(Clique para conhecer)</h4>
           <br />
           <br />
           <br /> <br />
@@ -450,39 +497,6 @@ export default function Home() {
         <br />
         <br />
 
-        <section id="hobbies">
-          <h2>Hobbies</h2>
-          <div id="slide">
-            <div className="slider-content">
-              <input type="radio" name="btn-radio" id="radio1" />
-              <input type="radio" name="btn-radio" id="radio2" />
-              <input type="radio" name="btn-radio" id="radio3" />
-
-              <div className="slide-box primeiro"></div>
-              <div className="slide-box"></div>
-              <div className="slide-box">
-                <img
-                  width="80%"
-                  height="80%"
-                  style={{ objectFit: "cover" }}
-                  src="/imgs/clinicaestetica.jpg"
-                  alt=""
-                />
-              </div>
-
-              <div className="nav-auto">
-                <div className="auto-btn1"></div>
-                <div className="auto-btn2"></div>
-                <div className="auto-btn3"></div>
-              </div>
-              <div className="nav-manual">
-                <label htmlFor="radio1" className="manual-btn"></label>
-                <label htmlFor="radio2" className="manual-btn"></label>
-                <label htmlFor="radio3" className="manual-btn"></label>
-              </div>
-            </div>
-          </div>
-        </section>
         <section>
           <div className="recado">
             <h4>Precisa de um desenvolvedor?</h4>

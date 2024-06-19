@@ -1,4 +1,18 @@
 @media screen and (max-width:1005px) {
+    .tecno {
+        flex-direction: column;
+    }
+
+    .imgstec img {
+        display: none;
+    }
+
+    .tecnoconteudo {
+
+        position: absolute;
+    }
+
+
     .logo {
         text-align: center;
     }

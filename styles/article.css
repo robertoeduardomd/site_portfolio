@@ -248,8 +248,8 @@ p {
 }
 
 .tecnop ul li:hover {
-    color: yellow;
-    border: 2px solid yellow;
+    color: rgb(1, 221, 118);
+    border: 2px solid rgb(1, 221, 118);
 }
 
 .tecnoconteudo {
@@ -257,6 +257,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .tecnoconteudo .tcn h2 {
@@ -286,7 +287,9 @@ p {
 #imgjava,
 #imggit,
 #imgmysql,
-#imgmongo {
+#imgmongo,
+#imgpacoteoffice,
+#imgmendix {
     transition: .5s;
     opacity: 0;
 }
@@ -299,7 +302,9 @@ p {
 .cardjava,
 .cardgit,
 .cardmysql,
-.cardmongo {
+.cardmongo,
+.cardpacoteoffice,
+.cardmendix {
 
     display: flex;
     align-items: center;
