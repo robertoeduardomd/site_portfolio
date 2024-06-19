@@ -241,7 +241,7 @@ p {
     font-weight: bolder;
     display: inline-block;
     color: white;
-    border: 2px solid white;
+    border: 0.5px solid white;
     border-radius: 30px;
     padding: 20px;
     cursor: url(../public/imgs/neonlinkselect.cur), pointer;

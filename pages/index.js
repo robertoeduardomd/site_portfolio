@@ -286,7 +286,7 @@ export default function Home() {
             </div>
             <div className="tecnop">
               <ul>
-                <h2>Tecnologias</h2>
+                <h2 className="h2tec">Tecnologias</h2>
                 <br />
                 <li id="lihtml">HTML5</li>
                 <li id="licss">CSS3</li>
@@ -298,7 +298,7 @@ export default function Home() {
                 <li id="limysql">MYSQL</li>
                 <li id="limongo">MONGODB</li>
                 <br /> <br />
-                <h2>Outras</h2>
+                <h2 className="h2tec">Outras</h2>
                 <br />
                 <li id="lipacoteoffice">Microsoft Office</li>
                 <li id="limendix">Mendix</li>
