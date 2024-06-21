@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const h2tec = document.querySelector(".h2tec");
+  const h2tec2 = document.querySelector(".h2tec2");
 
   const lihtml = document.getElementById("lihtml");
   const licss = document.getElementById("licss");
@@ -41,116 +42,138 @@ document.addEventListener("DOMContentLoaded", function () {
     imghtml.style.opacity = "1";
     cardhtml.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   lihtml.addEventListener("mouseleave", function () {
     imghtml.style.opacity = "0";
     cardhtml.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
 
   licss.addEventListener("mouseover", function () {
     imgcss.style.opacity = "1";
     cardcss.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   licss.addEventListener("mouseleave", function () {
     imgcss.style.opacity = "0";
     cardcss.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
 
   lijs.addEventListener("mouseover", function () {
     imgjs.style.opacity = "1";
     cardjs.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   lijs.addEventListener("mouseleave", function () {
     imgjs.style.opacity = "0";
     cardjs.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
 
   linode.addEventListener("mouseover", function () {
     imgnode.style.opacity = "1";
     cardnode.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   linode.addEventListener("mouseleave", function () {
     imgnode.style.opacity = "0";
     cardnode.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
 
   lireact.addEventListener("mouseover", function () {
     imgreact.style.opacity = "1";
     cardreact.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   lireact.addEventListener("mouseleave", function () {
     imgreact.style.opacity = "0";
     cardreact.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
   lijava.addEventListener("mouseover", function () {
     imgjava.style.opacity = "1";
     cardjava.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   lijava.addEventListener("mouseleave", function () {
     imgjava.style.opacity = "0";
     cardjava.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
   ligit.addEventListener("mouseover", function () {
     imggit.style.opacity = "1";
     cardgit.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   ligit.addEventListener("mouseleave", function () {
     imggit.style.opacity = "0";
     cardgit.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
   limysql.addEventListener("mouseover", function () {
     imgmysql.style.opacity = "1";
     cardmysql.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   limysql.addEventListener("mouseleave", function () {
     imgmysql.style.opacity = "0";
     cardmysql.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
 
   limongo.addEventListener("mouseover", function () {
     imgmongo.style.opacity = "1";
     cardmongo.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   limongo.addEventListener("mouseleave", function () {
     imgmongo.style.opacity = "0";
     cardmongo.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
 
   lipacoteoffice.addEventListener("mouseover", function () {
     imgpacoteoffice.style.opacity = "1";
     cardpacoteoffice.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   lipacoteoffice.addEventListener("mouseleave", function () {
     imgpacoteoffice.style.opacity = "0";
     cardpacoteoffice.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
   limendix.addEventListener("mouseover", function () {
     imgmendix.style.opacity = "1";
     cardmendix.style.opacity = "1";
     h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
   });
   limendix.addEventListener("mouseleave", function () {
     imgmendix.style.opacity = "0";
     cardmendix.style.opacity = "0";
     h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
   });
 });

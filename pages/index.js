@@ -119,7 +119,7 @@ export default function Home() {
           <div className="tecno" id="habilidades">
             <div className="tecnoconteudo">
               <div className="tcn">
-                <h2>Habilidades</h2>
+                <h2>Habilidades:</h2>
               </div>
               <div className="cardhtml">
                 <p>
@@ -298,7 +298,7 @@ export default function Home() {
                 <li id="limysql">MYSQL</li>
                 <li id="limongo">MONGODB</li>
                 <br /> <br />
-                <h2 className="h2tec">Outras</h2>
+                <h2 className="h2tec2">Outras</h2>
                 <br />
                 <li id="lipacoteoffice">Microsoft Office</li>
                 <li id="limendix">Mendix</li>
