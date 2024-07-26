@@ -1,6 +1,10 @@
 @media screen and (max-width:1005px) {
     .tecno {
-        flex-direction: column;
+        display: none;
+    }
+
+    .tecnomb {
+        display: flex;
     }
 
     .imgstec img {
@@ -112,6 +116,7 @@
 /*tablets*/
 @media screen and (max-width: 768px) {
 
+
     .proj {
         flex-basis: calc(50% - 2%);
     }
@@ -119,8 +124,6 @@
 
 /*celulares*/
 @media screen and (max-width: 480px) {
-
-
     .proj {
         flex-basis: calc(100% - 2%);
     }

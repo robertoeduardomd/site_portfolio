@@ -3,9 +3,6 @@ import Head from "next/head";
 import { useEffect } from "react";
 import Swiper from "swiper";
 
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
 export default function Home() {
   return (
     <>
@@ -105,6 +102,14 @@ export default function Home() {
                   <img src="/imgs/github.png" alt="" />
                   GitHub
                 </a>
+                <a
+                  id="btnwwp"
+                  href="https://api.whatsapp.com/send?phone=5561986023911"
+                  target="_blank"
+                >
+                  <img src="/imgs/whatsappicone.png" alt="" />
+                  WhatsApp
+                </a>
               </div>
             </div>
             <div className="imginicio">
@@ -115,6 +120,86 @@ export default function Home() {
         <br />
         <br />
         <br />
+        <section className="tecnomb" id="habilidadesmb">
+          <div className="tecnoconteudomb">
+            <h2>Habilidades</h2>
+            <h3>Tecnologias</h3>
+            <div className="tgtextimg">
+              <img src="/imgs/html-5.png" alt="" width="50px" height="50px" />
+              Meu Nivel em HTML 7/10
+            </div>
+            <div className="tgtextimg">
+              <img src="/imgs/css-3.png" alt="" width="50px" height="50px" />
+              Meu Nivel em CSS 9/10
+            </div>
+            <div className="tgtextimg">
+              <img src="/imgs/jsimg.png" alt="" width="50px" height="50px" />
+              Meu Nivel em Java-Script 6/10
+            </div>
+            <div className="tgtextimg">
+              <img src="/imgs/nodejs.png" alt="" width="50px" height="50px" />
+              Meu Nivel em Node.js 6/10
+            </div>
+            <div className="tgtextimg">
+              <img src="/imgs/github.png" alt="" width="50px" height="50px" />
+              Meu Nivel em Git e GitHub 8/10
+            </div>
+            <div className="tgtextimg">
+              <img src="/imgs/react.png" alt="" width="50px" height="50px" />
+              Meu Nivel em react.js 5/10
+            </div>
+            <div className="tgtextimg">
+              <img
+                src="/imgs/javaoracletransparent.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              Meu Nivel em JAVA 8/10
+            </div>
+            <div className="tgtextimg">
+              <img
+                src="/imgs/mysqltransparent.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              Meu Nivel em MYSQL 7/10
+            </div>
+            <div className="tgtextimg">
+              <img
+                src="/imgs/mongodbimg.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              Meu Nivel em MongoDB 6/10
+            </div>
+            <h3>Outras</h3>
+            <div className="tgtextimg">
+              <img
+                src="/imgs/wordexcelpowerpoint.jpg"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              Meu Nivel em Word 6/10
+              <br />
+              Meu Nivel em Excel 7/10
+              <br />
+              Meu Nivel em Power Point 9/10
+            </div>
+            <div className="tgtextimg">
+              <img
+                src="/imgs/mendixstudiopro.jpg"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              Meu Nivel em Mendi Rapid developer/iniciante
+            </div>
+          </div>
+        </section>
         <section>
           <div className="tecno" id="habilidades">
             <div className="tecnoconteudo">
@@ -234,7 +319,7 @@ export default function Home() {
                   <br />
                   <br />
                   <br />
-                  Meu Nivel em Git e MYSQL 7/10
+                  Meu Nivel em MYSQL 7/10
                 </p>
               </div>
               <div className="cardmongo">
@@ -245,7 +330,7 @@ export default function Home() {
                   <br />
                   <br />
                   <br />
-                  Meu Nivel em Git e MongoDB 6/10
+                  Meu Nivel MongoDB 6/10
                 </p>
               </div>
               <div className="cardpacoteoffice">
@@ -461,12 +546,18 @@ export default function Home() {
           <div className="formacao">
             <div className="escolaridade">
               <h2>Escolaridade</h2>
-
+              <br />
               <p>
-                Ensino Medio Colégio Nossa Senhora do Perpétuo Socorro
+                Ensino Medio Colégio Nossa Senhora do Perpétuo Socorro -
+                Concluido
                 <br />
                 <br />
-                Ensino Superior em Ciência da Computação IESB- Campus sul
+                Ensino Superior em Ciência da Computação IESB- Campus sul -
+                Trancado
+                <br />
+                <br />
+                Ensino Superior em Análise e Desenvolvimento de Sistemas SENAC -
+                Cursando
                 <br />
                 <br />
               </p>
@@ -503,6 +594,7 @@ export default function Home() {
             <h1>VAMOS TRABALHAR JUNTOS!</h1>
           </div>
         </section>
+        <section></section>
       </article>
       <a
         href="https://github.com/robertoeduardomd"

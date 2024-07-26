@@ -120,7 +120,8 @@ p {
     gap: 2%;
 }
 
-#btnlinkedin {
+#btnlinkedin,
+#btnwwp {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,7 +141,8 @@ p {
 }
 
 #btnlinkedin img,
-#btngithub img {
+#btngithub img,
+#btnwwp img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,7 +156,8 @@ p {
 }
 
 #btnlinkedin:hover img,
-#btngithub:hover img {
+#btngithub:hover img,
+#btnwwp:hover img {
     filter: hue-rotate(90deg);
     filter: grayscale(0%);
 }
@@ -178,8 +181,10 @@ p {
 }
 
 #btnlinkedin:hover,
-#btngithub:hover {
-    border: 2px solid red;
+#btngithub:hover,
+#btnwwp:hover {
+    border: 2px solid rgb(1, 221, 118);
+    box-shadow: 0 0 24px rgb(1, 221, 118);
 }
 
 .conteudoinicio h1 {
@@ -204,7 +209,8 @@ p {
 
 
 
-.tecno {
+.tecno,
+.tecnomb {
     margin-top: 0px;
     background: rgb(0, 0, 0);
     width: 100%;
@@ -217,7 +223,30 @@ p {
 
 }
 
+.tecnomb {
+    display: none;
+    padding-top: 40px;
+    width: 90%;
+}
 
+.tecnoconteudomb {
+    flex-direction: column;
+    display: flex;
+    color: white;
+
+}
+
+.tgtextimg {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+    gap: 30px;
+}
+
+.tecnoconteudomb img {
+    float: left;
+}
 
 .tecnop {
     width: 50%;
@@ -461,8 +490,13 @@ p {
     padding-top: 100px;
     border: 2px double blue;
     border-radius: 30px;
-    background: white;
+    background: black;
     border-radius: 100px;
+
+}
+
+#form p {
+    color: white;
 }
 
 .formacao {
