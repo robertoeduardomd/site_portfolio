@@ -141,7 +141,6 @@ p {
 }
 
 #btnlinkedin img,
-#btngithub img,
 #btnwwp img {
     display: flex;
     align-items: center;
@@ -155,11 +154,29 @@ p {
     padding-right: 5px;
 }
 
+#btngithub img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    float: left;
+    filter: invert(40%);
+    transition: .5s;
+    padding-right: 5px;
+}
+
 #btnlinkedin:hover img,
-#btngithub:hover img,
+
 #btnwwp:hover img {
     filter: hue-rotate(90deg);
     filter: grayscale(0%);
+}
+
+#btngithub:hover img {
+    filter: hue-rotate(90deg);
+    filter: invert(0);
 }
 
 #btngithub {
@@ -232,6 +249,7 @@ p {
 .tecnoconteudomb {
     flex-direction: column;
     display: flex;
+
     color: white;
 
 }
@@ -246,6 +264,7 @@ p {
 
 .tecnoconteudomb img {
     float: left;
+
 }
 
 .tecnop {
