@@ -37,7 +37,7 @@
     }
 
     .menubar .iconmenuresponsivo:focus~.menu ul {
-        height: 280px;
+        height: 300px;
     }
 
     .menubar .menu ul {
