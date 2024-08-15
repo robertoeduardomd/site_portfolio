@@ -30,7 +30,11 @@ export default function Home() {
         </div>
       </div>
       <div className="imgfundosite">
-        <img src="/imgs/fundobrancotec.jpg" alt="" />
+        <img
+          className="imgfundositeimg"
+          src="/imgs/fundobrancotec.jpg"
+          alt=""
+        />
       </div>
       <header>
         <div className="menubar">
@@ -61,6 +65,10 @@ export default function Home() {
               <li className="ctta">
                 <a href="#contato">Contato</a>
               </li>
+              <label class="switch">
+                <input type="checkbox" className="toggle-logo" />
+                <span class="slider round"></span>
+              </label>
             </ul>
           </div>
         </div>
@@ -520,7 +528,7 @@ export default function Home() {
                 </div>
                 <div className="item">
                   {" "}
-                  <a href="https://nigelky.com.br/index.html" target="_blank">
+                  <a href="https://nigelky.com.br/" target="_blank">
                     <img src="/imgs/institutohenfil.jpg" alt="" />{" "}
                     <p>instituto Henfil</p>
                   </a>
@@ -590,8 +598,8 @@ export default function Home() {
 
         <section>
           <div className="recado">
-            <h4>Precisa de um desenvolvedor?</h4>
-            <h1>VAMOS TRABALHAR JUNTOS!</h1>
+            <h4 className="recadoh4">Precisa de um desenvolvedor?</h4>
+            <h1 className="recadoh1">VAMOS TRABALHAR JUNTOS!</h1>
           </div>
         </section>
         <section></section>
@@ -683,6 +691,7 @@ export default function Home() {
       <script src="/carregador.js"></script>
       <script src="/msgcopia.js"></script>
       <script src="/itensgirando.js"></script>
+      <script src="/mododark.js"></script>
       <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </>
   );
