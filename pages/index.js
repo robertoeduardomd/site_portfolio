@@ -65,6 +65,7 @@ export default function Home() {
               <li className="ctta">
                 <a href="#contato">Contato</a>
               </li>
+
               <label class="switch">
                 <input type="checkbox" className="toggle-logo" />
                 <span class="slider round"></span>

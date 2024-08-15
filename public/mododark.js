@@ -6,6 +6,8 @@ const contcolapsador = document.querySelectorAll(".conteudocolapsador ");
 const label = document.querySelectorAll(".label ");
 const txtcolap = document.querySelectorAll(".txtcolapsador");
 const clconhecer = document.querySelector(".clconhecer");
+const girade = document.querySelector(".contem_coisa_gira_de");
+const giradd = document.querySelector(".contem_coisa_gira_dd");
 
 toggle.addEventListener("change", () => {
   if (toggle.checked) {
@@ -13,6 +15,10 @@ toggle.addEventListener("change", () => {
     imggit.style.filter = "invert(100%)";
     experiencias.style.background = "black";
     clconhecer.style.color = "white";
+    girade.style.background =
+      "linear-gradient(150deg, transparent, transparent, transparent, transparent, transparent, transparent, rgb(1, 221, 118), rgb(1, 221, 118), rgb(1, 221, 118), rgb(1, 221, 118))";
+    giradd.style.background =
+      "linear-gradient(210deg, transparent, transparent, transparent, transparent, transparent, transparent, rgb(1, 221, 118), rgb(1, 221, 118), rgb(1, 221, 118), rgb(1, 221, 118))";
 
     contcolapsador.forEach((ctcolap) => {
       ctcolap.style.background = "black";
@@ -30,6 +36,11 @@ toggle.addEventListener("change", () => {
     imggit.style.filter = "invert(0%)";
     experiencias.style.background = "rgb(233, 233, 233)";
     clconhecer.style.color = "blue";
+    girade.style.background =
+      "linear-gradient(150deg, transparent, transparent, transparent, transparent, transparent, transparent, black, black, black, black)";
+    giradd.style.background =
+      "linear-gradient(210deg, transparent, transparent, transparent, transparent, transparent, transparent, black, black, black, black)";
+
     contcolapsador.forEach((ctcolap) => {
       ctcolap.style.background = "white";
       ctcolap.style.border = "none";
