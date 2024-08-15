@@ -426,7 +426,7 @@ export default function Home() {
             <div className="colapsador">
               <div className="label">Estágio</div>
               <div className="conteudocolapsador">
-                <p>
+                <p className="txtcolapsador">
                   *Empresa: (SAMF-DF)Superintendências de Administração do
                   Ministerio da Fazenda <br />
                   <br />
@@ -450,7 +450,7 @@ export default function Home() {
                 Freelancer Site institucional pizzaria
               </div>
               <div className="conteudocolapsador">
-                <p>
+                <p className="txtcolapsador">
                   Site institucional de pizzaria, aonde o cliente abre a pagina
                   tem acesso as informações sobre a pizzaria,ao seu
                   cardapio,promoções do dia,informações de contato e podendo
@@ -466,7 +466,7 @@ export default function Home() {
                 Freelancer aplicativo de Aluguel de veiculos
               </div>
               <div className="conteudocolapsador">
-                <p>
+                <p className="txtcolapsador">
                   Aplicativo aluguel de Veiculos funciona no lado do
                   administrador, gerente e usuário; no lado do adm e gerente ele
                   adiciona veículos com diversos atributos e por padrão ja salva
@@ -485,7 +485,7 @@ export default function Home() {
         <br />
         <section id="proje">
           <h2>Projetos</h2>
-          <h4>(Clique para conhecer)</h4>
+          <h4 className="clconhecer">(Clique para conhecer)</h4>
           <br />
           <br />
           <br /> <br />
