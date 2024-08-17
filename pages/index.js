@@ -132,7 +132,7 @@ export default function Home() {
         <section className="tecnomb" id="habilidadesmb">
           <div className="tecnoconteudomb">
             <h2>Habilidades</h2>
-            <h3>Tecnologias</h3>
+            <h3 className="h3tec">Tecnologias</h3>
             <div className="tgtextimg">
               <img src="/imgs/html-5.png" alt="" width="50px" height="50px" />
               Meu Nivel em HTML 7/10
@@ -213,7 +213,7 @@ export default function Home() {
           <div className="tecno" id="habilidades">
             <div className="tecnoconteudo">
               <div className="tcn">
-                <h2>Habilidades:</h2>
+                <h2 className="h2hab">Habilidades:</h2>
               </div>
               <div className="cardhtml">
                 <p>
@@ -550,11 +550,11 @@ export default function Home() {
         <section id="form">
           <br />
 
-          <h2>Formação</h2>
+          <h2 className="formcor">Formação</h2>
           <br />
           <div className="formacao">
             <div className="escolaridade">
-              <h2>Escolaridade</h2>
+              <h2 className="formcor">Escolaridade</h2>
               <br />
               <p>
                 Ensino Medio Colégio Nossa Senhora do Perpétuo Socorro -
@@ -572,7 +572,7 @@ export default function Home() {
               </p>
             </div>
             <div className="escolaridade">
-              <h2>Idiomas</h2>
+              <h2 className="formcor">Idiomas</h2>
               <br />
               <p>
                 Español Fluente
@@ -584,7 +584,7 @@ export default function Home() {
               </p>
             </div>
             <div className="escolaridade">
-              <h2>Cursos</h2>
+              <h2 className="formcor">Cursos</h2>
               <br />
               <p>
                 Curso de verão Mendix certificado desenvolvedor rapido em Mendix

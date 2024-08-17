@@ -82,7 +82,7 @@ p {
     text-align: center;
     word-wrap: break-word;
     width: 50%;
-    background: black;
+    background: rgb(0, 33, 105);
     box-shadow: 0 0 24px rgb(1, 221, 118);
     color: white;
     border-radius: 30px;
@@ -230,7 +230,7 @@ p {
 .tecno,
 .tecnomb {
     margin-top: 0px;
-    background: rgb(0, 0, 0);
+    background: rgb(0, 33, 105);
     width: 100%;
     display: flex;
     text-align: center;
@@ -266,6 +266,11 @@ p {
 .tecnoconteudomb img {
     float: left;
 
+}
+
+.h2tec,
+.h2tec2 {
+    color: white;
 }
 
 .tecnop {
@@ -350,6 +355,8 @@ p {
     opacity: 0;
 }
 
+
+
 .cardhtml,
 .cardcss,
 .cardjs,
@@ -372,7 +379,7 @@ p {
     border-radius: 30px;
     opacity: 0;
     position: absolute;
-    background: rgb(0, 0, 0);
+
     width: 300px;
     height: 300px;
 }
@@ -514,11 +521,16 @@ p {
 /*formacao:*/
 #form {
     padding-top: 100px;
-    border: 2px double blue;
+    border: 2px double brown;
     border-radius: 30px;
-    background: black;
+    background: rgb(0, 33, 105);
+    ;
     border-radius: 100px;
 
+}
+
+.formcor {
+    color: rgb(240, 255, 103);
 }
 
 #form p {

@@ -27,7 +27,6 @@
 }
 
 
-
 .txtdigitado p span::before {
     content: "";
     /*letras que passam*/
@@ -43,7 +42,7 @@
     border-left: 2px solid black;
     right: -135px;
     width: calc(100% + 100px);
-    background-color: black;
+    background-color: var(--after-color, rgb(0, 33, 105));
     animation: digita 20s infinite steps(15), pisca 1.6s infinite;
 }
 
