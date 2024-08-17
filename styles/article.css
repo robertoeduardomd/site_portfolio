@@ -102,12 +102,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 50%;
 }
 
 .imginicio img {
     box-shadow: 0 0 24px rgb(1, 221, 118);
+
 }
 
 .btns {
@@ -202,6 +202,7 @@ p {
 #btnwwp:hover {
     border: 2px solid rgb(1, 221, 118);
     box-shadow: 0 0 24px rgb(1, 221, 118);
+
 }
 
 .conteudoinicio h1 {
@@ -237,7 +238,7 @@ p {
     justify-content: center;
     flex-direction: row;
     border-radius: 30px;
-
+    cursor: url(../public/imgs/neonpointerhelp.cur), pointer;
 }
 
 .tecnomb {
@@ -291,7 +292,7 @@ p {
     border: 0.5px solid white;
     border-radius: 30px;
     padding: 20px;
-    cursor: url(../public/imgs/neonlinkselect.cur), pointer;
+    cursor: url(../public/imgs/neonpointer.cur), default;
     letter-spacing: 2px;
 }
 

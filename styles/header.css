@@ -46,7 +46,7 @@ header {
     top: 30px;
     font-size: 30px;
     display: none;
-    cursor: pointer;
+    cursor: url(../public/imgs/neonlinkselect.cur), pointer;
 }
 
 .logo>* {
@@ -122,7 +122,7 @@ header {
     content: "modo dia";
 
     position: absolute;
-    cursor: pointer;
+    cursor: url(../public/imgs/handstatic.cur), pointer;
     top: 0;
     left: 0;
     right: 0;

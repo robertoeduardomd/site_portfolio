@@ -1,3 +1,4 @@
+const switc = document.querySelector(".switch");
 const toggle = document.querySelector(".toggle-logo");
 const background = document.querySelector(".imgfundositeimg");
 const imggit = document.querySelector(".iconegithub");
@@ -10,6 +11,7 @@ const girade = document.querySelector(".contem_coisa_gira_de");
 const giradd = document.querySelector(".contem_coisa_gira_dd");
 
 toggle.addEventListener("change", () => {
+  switc.style.cursor = "grabbing";
   if (toggle.checked) {
     background.style.filter = "invert(100%)";
     imggit.style.filter = "invert(100%)";
