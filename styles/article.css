@@ -230,7 +230,7 @@ p {
 .tecno,
 .tecnomb {
     margin-top: 0px;
-    background: rgb(0, 33, 105);
+    background: linear-gradient(45deg, black, rgb(0, 33, 105));
     width: 100%;
     display: flex;
     text-align: center;
@@ -523,8 +523,8 @@ p {
     padding-top: 100px;
     border: 2px double brown;
     border-radius: 30px;
-    background: rgb(0, 33, 105);
-    ;
+    background: linear-gradient(45deg, black, rgb(0, 33, 105));
+
     border-radius: 100px;
 
 }

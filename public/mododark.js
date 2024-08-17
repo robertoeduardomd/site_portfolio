@@ -83,8 +83,9 @@ toggle.addEventListener("change", () => {
     spanElement.style.setProperty("--after-content", "'Texto Original'");
     spanElement.style.setProperty("--after-color", "rgb(0, 33, 105)");
 
-    tecno.style.background = "rgb(0, 33, 105)";
-    tecnomb.style.background = "rgb(0, 33, 105)";
-    form.style.background = "rgb(0, 33, 105)";
+    tecno.style.background = "linear-gradient(45deg, black, rgb(0, 33, 105) )";
+    tecnomb.style.background =
+      "linear-gradient(45deg, black, rgb(0, 33, 105) )";
+    form.style.background = "linear-gradient(45deg, black, rgb(0, 33, 105) )";
   }
 });
