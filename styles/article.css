@@ -334,6 +334,10 @@ p {
     object-fit: contain;
 }
 
+.tggithub {
+    filter: invert(100%);
+}
+
 #imghtml,
 #imgcss,
 #imgjs,
@@ -596,4 +600,19 @@ p {
 
 #hobbies {
     padding-top: 100px;
+}
+
+.respportifolios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.imgsportfolios {
+    word-wrap: break-word;
+    display: inline-block;
+    object-fit: contain;
 }

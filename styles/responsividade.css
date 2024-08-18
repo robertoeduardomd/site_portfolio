@@ -3,6 +3,10 @@
         display: none;
     }
 
+    .txtdigitado p {
+        font-size: 16px;
+    }
+
     .tecnomb {
         display: flex;
     }
@@ -115,7 +119,9 @@
 
 /*tablets*/
 @media screen and (max-width: 768px) {
-
+    .btns {
+        flex-direction: column;
+    }
 
     .proj {
         flex-basis: calc(50% - 2%);

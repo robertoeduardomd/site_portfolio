@@ -150,7 +150,13 @@ export default function Home() {
               Meu Nivel em Node.js 6/10
             </div>
             <div className="tgtextimg">
-              <img src="/imgs/github.png" alt="" width="50px" height="50px" />
+              <img
+                className="tggithub"
+                src="/imgs/github.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
               Meu Nivel em Git e GitHub 8/10
             </div>
             <div className="tgtextimg">
@@ -598,6 +604,33 @@ export default function Home() {
         <br />
 
         <section>
+          <div className="respportifolios">
+            <h2 className="clconhecer">Portfólio responsivo</h2>
+            <img
+              className="imgsportfolios"
+              width="900px"
+              height="300px"
+              src="/imgs/portfoliomacbookair.jpg"
+            />
+            <img
+              className="imgsportfolios"
+              width="400px"
+              height="400px"
+              src="/imgs/portfolioiphadmini.jpg"
+            />
+            <img
+              className="imgsportfolios"
+              width="200px"
+              height="200px"
+              src="/imgs/portfoliomobileiphone11promax.jpg"
+            />
+            <img
+              className="imgsportfolios"
+              width="150px"
+              height="150px"
+              src="/imgs/portfolioapplewatch.jpg"
+            />
+          </div>
           <div className="recado">
             <h4 className="recadoh4">Precisa de um desenvolvedor?</h4>
             <h1 className="recadoh1">VAMOS TRABALHAR JUNTOS!</h1>
