@@ -86,7 +86,7 @@ p {
     box-shadow: 0 0 24px rgb(1, 221, 118);
     color: white;
     border-radius: 30px;
-
+    overflow: hidden;
 }
 
 .conteudoinicio h2 {
