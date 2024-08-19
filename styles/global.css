@@ -23,12 +23,13 @@ a {
 }
 
 ::-webkit-scrollbar {
-    background: rgb(0, 0, 0);
+    background: linear-gradient(45deg, black, blue, blue, black);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, black, blue, blue, black);
-    border: 1px solid white;
+
+    background: linear-gradient(45deg, black, white, white, black);
+    border: 1px solid rgb(1, 221, 118);
     border-radius: 30px;
     transition: .5s ease-in;
 }
@@ -38,9 +39,15 @@ a {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(45deg, black, rgb(1, 221, 118), rgb(1, 221, 118), black);
     box-shadow: 0 0 10px white;
+    cursor: grab;
 
+}
+
+::-webkit-scrollbar-thumb:active {
+    box-shadow: 0 0 24px rgb(1, 221, 118);
+    background: linear-gradient(45deg, black, rgb(1, 221, 118), rgb(1, 221, 118), black);
+    cursor: grabbing;
 }
 
 h1 {

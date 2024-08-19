@@ -123,6 +123,13 @@
         flex-direction: column;
     }
 
+    #btnlinkedin,
+    #btnwwp,
+    #btngithub {
+        width: 100%;
+        letter-spacing: 2px;
+    }
+
     .proj {
         flex-basis: calc(50% - 2%);
     }
