@@ -535,7 +535,7 @@ export default function Home() {
                 </div>
                 <div className="item">
                   {" "}
-                  <a href="https://nigelky.com.br/" target="_blank">
+                  <a href="https://henfil.com.br/" target="_blank">
                     <img src="/imgs/institutohenfil.jpg" alt="" />{" "}
                     <p>instituto Henfil</p>
                   </a>

@@ -45,7 +45,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb:active {
-    box-shadow: 0 0 24px rgb(1, 221, 118);
+    box-shadow: 0 10px 24px yellow;
     background: linear-gradient(45deg, black, rgb(1, 221, 118), rgb(1, 221, 118), black);
     cursor: grabbing;
 }
