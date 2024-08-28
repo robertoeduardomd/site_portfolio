@@ -86,7 +86,7 @@ export default function Home() {
 
               <br />
               <br />
-              <p>
+              <p className="jus">
                 Sou um desenvolvedor apaixonado nas atividades de minha área, me
                 satisfaz entregar resultados e se possível, vou além. Encontrar
                 desafios e conseguir trazer soluções é o que me empolga, já
@@ -483,6 +483,23 @@ export default function Home() {
                   após alugar o veiculo não se torna mais disponível(Tecnologias
                   utilizadas: Mendix e CSS)
                 </p>
+              </div>
+            </div>
+            <div className="colapsador">
+              <div className="label">Freelancer Site Instituto Henfil</div>
+              <div className="conteudocolapsador">
+                <p className="txtcolapsador">
+                  Criação e Desenvolvimento do 0 ao resultado final do site
+                  Instituto Henfil dedicado em memoria ao artista Henfil
+                  (tecnologias: HTML5, CSS3, JAVASCRIPT, GIT, PHP, MYSQL)
+                </p>
+                <h3>Feed Back:</h3>
+                <img
+                  style={{ objectFit: "contain", width: "100%" }}
+                  height="300px"
+                  src="/imgs/feedbackinstitutohenfil.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>

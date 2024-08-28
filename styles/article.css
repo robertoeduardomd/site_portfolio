@@ -239,6 +239,7 @@ p {
     flex-direction: row;
     border-radius: 30px;
     cursor: url(../public/imgs/neonpointerhelp.cur), pointer;
+
 }
 
 .tecnomb {
@@ -279,7 +280,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-align: justify;
     padding: 30px;
     border-radius: 30px;
 
@@ -377,7 +378,7 @@ p {
     align-items: center;
     justify-content: center;
     word-wrap: break-word;
-
+    text-align: justify;
     transition: .5s;
 
     border-radius: 30px;
@@ -465,7 +466,7 @@ p {
 
 .experiencias .colapsador.active .conteudocolapsador {
     padding: 20px;
-    height: 300px;
+    height: 500px;
 }
 
 #proje {
@@ -528,8 +529,12 @@ p {
     border: 2px double brown;
     border-radius: 30px;
     background: linear-gradient(45deg, black, rgb(0, 33, 105));
-
     border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
 
 }
 
@@ -539,6 +544,8 @@ p {
 
 #form p {
     color: white;
+    text-align: justify;
+    padding: 10px;
 }
 
 .formacao {
@@ -547,6 +554,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 
     flex-direction: row;
 
