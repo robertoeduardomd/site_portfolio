@@ -94,8 +94,16 @@
     }
 
     /*formacao:*/
+    #form {
+
+        display: flex;
+        align-items: center;
+    }
+
     .formacao {
+        margin-top: 50px;
         flex-direction: column;
+
     }
 
     .escolaridade {

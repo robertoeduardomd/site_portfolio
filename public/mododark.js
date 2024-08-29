@@ -41,7 +41,6 @@ toggle.addEventListener("change", () => {
 
     contcolapsador.forEach((ctcolap) => {
       ctcolap.style.background = "black";
-      ctcolap.style.border = "1px solid white";
     });
 
     txtcolap.forEach((txtcol) => {
@@ -72,7 +71,6 @@ toggle.addEventListener("change", () => {
 
     contcolapsador.forEach((ctcolap) => {
       ctcolap.style.background = "white";
-      ctcolap.style.border = "none";
     });
 
     txtcolap.forEach((txtcol) => {

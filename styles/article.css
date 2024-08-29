@@ -447,6 +447,11 @@ p {
     content: "-";
 }
 
+.experiencias .colapsador.active {
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
 .experiencias .colapsador .conteudocolapsador {
     text-align: start;
     background: white;
@@ -461,7 +466,7 @@ p {
 
 .experiencias .colapsador .conteudocolapsador p {
     color: black;
-
+    text-align: justify;
 }
 
 .experiencias .colapsador.active .conteudocolapsador {
@@ -544,8 +549,8 @@ p {
 
 #form p {
     color: white;
-
     padding: 10px;
+    padding-top: 0;
 }
 
 .formacao {
