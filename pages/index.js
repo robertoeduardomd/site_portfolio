@@ -624,7 +624,7 @@ export default function Home() {
 
         <section>
           <div className="respportifolios">
-            <h2 className="clconhecer">Portfólio responsivo</h2>
+            <h2 className="clconhecer">Este Portfólio é responsivo</h2>
             <img
               className="imgsportfolios"
               width="900px"
