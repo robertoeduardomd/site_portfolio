@@ -44,9 +44,6 @@ toggle.addEventListener("change", () => {
       ctcolap.style.border = "1px solid white";
     });
 
-    label.forEach((lb) => {
-      lb.style.border = "2px solid white";
-    });
     txtcolap.forEach((txtcol) => {
       txtcol.style.color = "white";
     });
@@ -77,9 +74,7 @@ toggle.addEventListener("change", () => {
       ctcolap.style.background = "white";
       ctcolap.style.border = "none";
     });
-    label.forEach((lb) => {
-      lb.style.border = "none";
-    });
+
     txtcolap.forEach((txtcol) => {
       txtcol.style.color = "black";
     });

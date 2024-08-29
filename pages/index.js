@@ -490,8 +490,10 @@ export default function Home() {
               <div className="conteudocolapsador">
                 <p className="txtcolapsador">
                   Criação e Desenvolvimento do 0 ao resultado final do site
-                  Instituto Henfil dedicado em memoria ao artista Henfil
-                  (tecnologias: HTML5, CSS3, JAVASCRIPT, GIT, PHP, MYSQL)
+                  Instituto Henfil dedicado em memoria ao artista Henfil, junto
+                  com as informações que a equipe do Instituto passava para
+                  trazer o resultado final esperado (tecnologias: HTML5, CSS3,
+                  JAVASCRIPT, GIT, PHP, MYSQL)
                 </p>
                 <h3>Feed Back:</h3>
                 <img
