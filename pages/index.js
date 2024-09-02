@@ -8,13 +8,8 @@ export default function Home() {
     <>
       <Head>
         <title>Meu Portfólio</title>
-        <meta
-          name="og:description"
-          content="Portfólio de Roberto Eduardo Melara Doudement, desenvolvedor web apaixonado por tecnologia e soluções criativas."
-        />
-
         <meta property="og:title" content="Portfólio Roberto Eduardo" />
-
+        <meta name="og:description" content="Desenvolvedor web Full Stack" />
         <meta
           property="og:url"
           content="https://www.site-portfolio-lemon-ten.vercel.app"
@@ -24,7 +19,10 @@ export default function Home() {
           content="https://www.site-portfolio-lemon-ten.vercel.app/imgs/eucamauzlremovebg.png"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Roberto Eduardo Melara" />
+        <meta
+          property="og:site_name"
+          content="Portfólio Roberto Eduardo Melara"
+        />
         <meta property="og:locale" content="pt_BR" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
