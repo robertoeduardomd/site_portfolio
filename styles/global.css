@@ -22,12 +22,27 @@ a {
     cursor: url(../public/imgs/neonlinkselect.cur), pointer;
 }
 
+@keyframes degradeanimacao {
+
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
 ::-webkit-scrollbar {
-    background: linear-gradient(45deg, black, blue, blue, black);
+    background: linear-gradient(45deg, black, black, rgb(0, 33, 105), black, black, rgb(0, 33, 105), black, black);
+
+    border-radius: 2px;
+    background-size: 500%, 100%;
+    animation: degradeanimacao 8s infinite alternate;
+    transition: 5s;
 }
 
 ::-webkit-scrollbar-thumb {
-
     background: linear-gradient(45deg, black, white, white, black);
     border: 1px solid rgb(1, 221, 118);
     border-radius: 30px;
