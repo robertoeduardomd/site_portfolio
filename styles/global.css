@@ -35,7 +35,7 @@ a {
 
 ::-webkit-scrollbar {
     background: linear-gradient(45deg, black, black, rgb(0, 33, 105), black, black, rgb(0, 33, 105), black, black);
-
+    box-shadow: 0 10px 204px rgb(1, 221, 118);
     border-radius: 2px;
     background-size: 500%, 100%;
     animation: degradeanimacao 8s infinite alternate;
