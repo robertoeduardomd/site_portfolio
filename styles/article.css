@@ -6,8 +6,14 @@ article {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
 
-
+#expe,
+#habilidades,
+#proje,
+#form,
+#contato {
+    padding-top: 70px;
 }
 
 .imgfundosite {
