@@ -563,7 +563,7 @@ export default function Home() {
                   <a href="https://projeto-araya.vercel.app/">
                     <img
                       style="object-fit:contain; width:500px;
-                      height:200px;"
+                      height:201px;"
                       src="/imgs/imghospproj.jpg"
                       alt=""
                     />{" "}
