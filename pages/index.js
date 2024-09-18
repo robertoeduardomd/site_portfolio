@@ -561,7 +561,13 @@ export default function Home() {
                 <div className="item">
                   {" "}
                   <a href="https://projeto-araya.vercel.app/" id="linkpizzaria">
-                    <img src="/imgs/imghospproj.jpg" alt="" />{" "}
+                    <img
+                      style="object-fit:contain;"
+                      width="300px"
+                      height="100px"
+                      src="/imgs/imghospproj.jpg"
+                      alt=""
+                    />{" "}
                     <p>projeto de atendimento</p>
                   </a>
                 </div>
