@@ -564,7 +564,7 @@ export default function Home() {
                     <img
                       style="object-fit:contain; width:500px;
                       height:201px;"
-                      src="/imgs/imghospproj.jpg"
+                      src="/imgs/imghospproj2.jpg"
                       alt=""
                     />{" "}
                     <p>projeto de atendimento</p>
