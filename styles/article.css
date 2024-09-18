@@ -17,6 +17,7 @@ article {
 }
 
 .imgfundosite {
+
     z-index: -1;
     position: fixed;
     width: 100%;
