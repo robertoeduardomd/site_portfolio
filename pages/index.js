@@ -560,11 +560,10 @@ export default function Home() {
                 </div>
                 <div className="item">
                   {" "}
-                  <a href="https://projeto-araya.vercel.app/" id="linkpizzaria">
+                  <a href="https://projeto-araya.vercel.app/">
                     <img
-                      style="object-fit:contain;"
-                      width="300px"
-                      height="100px"
+                      style="object-fit:contain; width:500px;
+                      height:200px;"
                       src="/imgs/imghospproj.jpg"
                       alt=""
                     />{" "}
