@@ -561,7 +561,7 @@ export default function Home() {
                 <div className="item">
                   {" "}
                   <a href="https://projeto-araya.vercel.app/" target="_blank">
-                    <img src="/imgs/imghospproj2.jpg" alt="" />{" "}
+                    <img src="/imgs/imghospproj3.jpg" alt="" />{" "}
                     <p>projeto de atendimento</p>
                   </a>
                 </div>
