@@ -356,7 +356,8 @@ p {
 #imgmysql,
 #imgmongo,
 #imgpacoteoffice,
-#imgmendix {
+#imgmendix,
+#imgsprint {
     transition: .5s;
     opacity: 0;
 }
@@ -379,7 +380,8 @@ p {
 .cardmysql,
 .cardmongo,
 .cardpacoteoffice,
-.cardmendix {
+.cardmendix,
+.cardsprint {
 
     display: flex;
     align-items: center;

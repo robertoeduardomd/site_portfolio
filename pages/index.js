@@ -226,6 +226,15 @@ export default function Home() {
               />
               Meu Nivel em Mendi Rapid developer/iniciante
             </div>
+            <div className="tgtextimg">
+              <img
+                src="/imgs/design-sprint-professional-certification-dspc.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              Certificado Design Sprint
+            </div>
           </div>
         </section>
         <section>
@@ -396,6 +405,25 @@ export default function Home() {
                   Meu Nivel em Mendix Iniciante
                 </p>
               </div>
+              <div className="cardsprint">
+                <p>
+                  Design Sprint
+                  <br />
+                  <br />
+                  Os detentores da Certificação CertiProf Design Sprint
+                  demonstram que estão familiarizados com o processo de
+                  experimentação e inovação. Eles entendem o passo a passo
+                  prático para o desenvolvimento de soluções, seja serviço,
+                  produto ou solução de problemas, que é baseado em design
+                  thinking e framework ágil.
+                  <br />
+                  <a href="https://www.credly.com/badges/dbcac4b2-c22f-4656-8938-70d81202405b/email">
+                    https://www.credly.com/badges/dbcac4b2-c22f-4656-8938-70d81202405b/email
+                  </a>
+                  <br />
+                  <br />
+                </p>
+              </div>
             </div>
             <div className="tecnop">
               <ul>
@@ -415,6 +443,7 @@ export default function Home() {
                 <br />
                 <li id="lipacoteoffice">Microsoft Office</li>
                 <li id="limendix">Mendix</li>
+                <li id="lisprint">Design Sprint</li>
               </ul>
               <div className="imgstec">
                 <img id="imghtml" src="/imgs/html-5.png" alt="" />
@@ -436,6 +465,11 @@ export default function Home() {
                   alt=""
                 />
                 <img id="imgmendix" src="/imgs/mendixstudiopro.jpg" alt="" />
+                <img
+                  id="imgsprint"
+                  src="/imgs/design-sprint-professional-certification-dspc.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>

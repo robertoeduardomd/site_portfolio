@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const limongo = document.getElementById("limongo");
   const lipacoteoffice = document.getElementById("lipacoteoffice");
   const limendix = document.getElementById("limendix");
+  const lisprint = document.getElementById("lisprint");
 
   const imghtml = document.getElementById("imghtml");
   const imgcss = document.getElementById("imgcss");
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const imgmongo = document.getElementById("imgmongo");
   const imgpacoteoffice = document.getElementById("imgpacoteoffice");
   const imgmendix = document.getElementById("imgmendix");
+  const imgsprint = document.getElementById("imgsprint");
 
   const cardhtml = document.querySelector(".cardhtml");
   const cardcss = document.querySelector(".cardcss");
@@ -38,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const cardmongo = document.querySelector(".cardmongo");
   const cardpacoteoffice = document.querySelector(".cardpacoteoffice");
   const cardmendix = document.querySelector(".cardmendix");
+  const cardsprint = document.querySelector(".cardsprint");
 
   lihtml.addEventListener("mouseover", function () {
     imghtml.style.opacity = "1";
@@ -195,6 +198,20 @@ document.addEventListener("DOMContentLoaded", function () {
   limendix.addEventListener("mouseleave", function () {
     imgmendix.style.opacity = "0";
     cardmendix.style.opacity = "0";
+    h2tec.style.opacity = "1";
+    h2tec2.style.opacity = "1";
+    h2hab.style.opacity = "1";
+  });
+  lisprint.addEventListener("mouseover", function () {
+    imgsprint.style.opacity = "1";
+    cardsprint.style.opacity = "1";
+    h2tec.style.opacity = "0";
+    h2tec2.style.opacity = "0";
+    h2hab.style.opacity = "0";
+  });
+  lisprint.addEventListener("mouseleave", function () {
+    imgsprint.style.opacity = "0";
+    cardsprint.style.opacity = "0";
     h2tec.style.opacity = "1";
     h2tec2.style.opacity = "1";
     h2hab.style.opacity = "1";
